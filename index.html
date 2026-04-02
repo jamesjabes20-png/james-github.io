@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas Smart RD - Julia Feliz</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700&family=Playfair+Display:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="brand">Finanzas Smart <span>by Julia Feliz</span></a>
+        
+        <div class="nav-links" id="navLinks">
+            <a href="#hero">Inicio</a>
+            <a href="#impact">Nuestro Impacto</a>
+            <a href="#services">Servicios</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">Sobre Mí</a>
+            <a href="#contact">Contacto</a>
+            <a href="https://www.instagram.com/finanzasmartrd/" target="_blank" class="btn-primary" style="padding: 0.5rem 1.2rem;">
+                <i class="ph ph-instagram-logo"></i> Ver Instagram
+            </a>
+        </div>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="ph ph-list"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        
+        <div class="hero-content gs_reveal">
+            <h1 class="gs_header">Toma el control de tus <span class="script-text">finanzas</span> y logra tu proyecto de vida.</h1>
+            <p class="gs_p">Educación financiera, emprendimiento y productividad diseñados para ayudarte a organizar tu dinero y alcanzar tus metas con claridad.</p>
+            <div class="hero-buttons gs_btn">
+                <a href="#contact" class="btn-primary">Agenda tu llamada de análisis</a>
+                <a href="#resources" class="btn-secondary">Recursos Gratuitos</a>
+            </div>
+        </div>
+        
+        <div class="hero-image gs_reveal gs_right">
+            <img src="./fotos/foto-julia.jpg" alt="Julia Feliz - Finanzas Smart RD" onerror="this.src='./fotos/foto_1_1775089574187.png'">
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact" id="impact">
+        <div class="section-header gs_reveal">
+            <h2>Nuestro Impacto</h2>
+            <p>Ayudando a cientos de personas a transformar su relación con el dinero.</p>
+        </div>
+        <div class="impact-grid gs_reveal">
+            <div class="impact-card">
+                <h2 class="counter" data-target="500">+0</h2>
+                <p>Personas asesoradas</p>
+            </div>
+            <div class="impact-card">
+                <h2 class="counter" data-target="50">+0</h2>
+                <p>Emprendimientos estructurados</p>
+            </div>
+            <div class="impact-card">
+                <h2 class="counter" data-target="100">+0</h2>
+                <p>Horas de mentoría</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header gs_reveal">
+            <h2>¿Cómo puedo ayudarte?</h2>
+            <p>Tres pilares fundamentales para construir una vida financiera sólida, emprender con estrategia y optimizar tu tiempo.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card gs_reveal_up">
+                <i class="ph ph-wallet"></i>
+                <h3>Finanzas Personales</h3>
+                <p>Ayudo a las personas a organizar su dinero, mejorar hábitos financieros, usar mejor sus recursos y alinear sus finanzas con su proyecto de vida.</p>
+            </div>
+            
+            <div class="service-card gs_reveal_up" style="transition-delay: 0.1s;">
+                <i class="ph ph-rocket-launch"></i>
+                <h3>Emprendimiento</h3>
+                <p>Guío a personas que quieren iniciar o estructurar su negocio, desarrollar mejor sus ideas y convertir su esfuerzo en un proyecto rentable y organizado.</p>
+            </div>
+            
+            <div class="service-card gs_reveal_up" style="transition-delay: 0.2s;">
+                <i class="ph ph-clock-user"></i>
+                <h3>Productividad</h3>
+                <p>Brindo herramientas para gestionar mejor el tiempo, definir prioridades y enfocarse en acciones que aporten valor real a largo plazo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="section-header gs_reveal">
+            <h2>Blog de Finanzas</h2>
+            <p>Artículos prácticos sobre finanzas personales, ahorro, inversión y cómo estructurar tus proyectos.</p>
+        </div>
+        
+        <div class="blog-grid gs_reveal_up">
+            <article class="blog-card">
+                <img src="./fotos/foto_2_1775089590772.png" alt="Blog 1" class="blog-img">
+                <div class="blog-content">
+                    <span class="blog-tag">Ahorro</span>
+                    <h3>La regla del 50/30/20 explicada</h3>
+                    <p>Aprende a distribuir tus ingresos de forma inteligente para cubrir tus necesidades, disfrutar el presente y asegurar tu futuro.</p>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <img src="./fotos/foto_3_1775089605857.png" alt="Blog 2" class="blog-img">
+                <div class="blog-content">
+                    <span class="blog-tag">Emprendimiento</span>
+                    <h3>Cómo separar las finanzas del negocio</h3>
+                    <p>El error más común de los emprendedores es mezclar su dinero personal con el del negocio. Descubre cómo evitarlo en 3 pasos.</p>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <img src="./fotos/foto_1_1775089574187.png" alt="Blog 3" class="blog-img">
+                <div class="blog-content">
+                    <span class="blog-tag">Productividad</span>
+                    <h3>Planificación Anual Efectiva</h3>
+                    <p>Construye un mapa claro para tus metas financieras y personales con esta guía paso a paso para el nuevo año.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Instagram Reels Section -->
+    <section class="reels-section" id="reels">
+        <div class="section-header gs_reveal">
+            <h2>Aprende conmigo en Instagram</h2>
+            <p>Consejos rápidos, tutoriales y reflexiones en <a href="https://www.instagram.com/finanzasmartrd/" style="text-decoration: underline;">@finanzasmartrd</a> para llevar tus finanzas al siguiente nivel.</p>
+        </div>
+        
+        <div class="reels-grid gs_reveal_up">
+            <div class="reel-card">
+                <iframe src="https://www.instagram.com/reel/DUoryN9jdfV/embed" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="reel-card">
+                <iframe src="https://www.instagram.com/reel/DWepA-rAHb5/embed" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="reel-card">
+                <iframe src="https://www.instagram.com/reel/DWWSzlODYsi/embed" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="reel-card">
+                <iframe src="https://www.instagram.com//reel/DURC92SiaWl/embed" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image gs_reveal gs_left">
+            <img src="./fotos/foto_2_1775089590772.png" alt="Julia Feliz">
+        </div>
+        <div class="about-content gs_reveal gs_right">
+            <h2>Sobre Julia Feliz</h2>
+            <p>Soy Julia Feliz, creadora digital y profesional enfocada en <strong style="color: var(--sage-green-dark)">finanzas personales, emprendimiento y productividad.</strong></p>
+            <br>
+            <p>Acompaño a personas que desean organizar mejor su dinero, desarrollar sus ideas y construir una vida con más claridad, estructura y propósito. Mi enfoque combina educación financiera, planificación y herramientas prácticas para ayudarte a avanzar de forma realista y sostenible.</p>
+            <br>
+            <p>Creo firmemente que unas finanzas en orden son la base para poder disfrutar de tu vida y materializar tus proyectos más ambiciosos sin el estrés de la incertidumbre financiera.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-info gs_reveal gs_left">
+            <h2>Hablemos de tus finanzas</h2>
+            <p>¿Listo(a) para tomar el control de tu proyecto de vida? Agenda una llamada de análisis conmigo o envíame un mensaje directo.</p>
+            <br>
+            <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem;">
+                <a href="#" class="btn-secondary" style="width: fit-content; border: none; padding-left: 0;"><i class="ph ph-envelope-simple" style="font-size: 1.5rem;"></i> contactoficitcio@finanzasmartrd.com</a>
+                <a href="https://api.whatsapp.com/send?phone=18495199848&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre" class="btn-secondary" style="width: fit-content; border: none; padding-left: 0;"><i class="ph ph-whatsapp-logo" style="font-size: 1.5rem;"></i> +1 (849) 519-9848</a>
+                <a href="https://www.instagram.com/finanzasmartrd/" target="_blank" class="btn-secondary" style="width: fit-content; border: none; padding-left: 0;"><i class="ph ph-instagram-logo" style="font-size: 1.5rem;"></i> @finanzasmartrd</a>
+            </div>
+        </div>
+        
+        <div class="contact-form gs_reveal gs_right">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" class="form-control" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" class="form-control" required placeholder="tu@correo.com">
+                </div>
+                <div class="form-group">
+                    <label for="service">Servicio de interés</label>
+                    <select id="service" class="form-control">
+                        <option>Sesión de análisis financiero</option>
+                        <option>Organización de metas y presupuesto</option>
+                        <option>Mentoría en productividad personal</option>
+                        <option>Acompañamiento para emprendedores</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" class="form-control" rows="4" required placeholder="Cuéntame sobre tu situación actual..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Enviar Mensaje</button>
+                <div id="formMessage" style="margin-top: 1rem; text-align: center; font-weight: 500; display: none;"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2 class="brand" style="color: white; margin-bottom: 0.5rem;">Finanzas Smart <span>by Julia Feliz</span></h2>
+        <p>Finanzas Personales & Emprendimiento</p>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/finanzasmartrd/"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#"><i class="ph ph-tiktok-logo"></i></a>
+            <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+        </div>
+        <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2026 Finanzas Smart RD. Todos los derechos reservados. <a href="https://www.instagram.com/finanzasmartrd/" style="text-decoration: underline;">Finazas Smart RD</a></p>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
